@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ETreeks.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e35062ace831f6ef8c2f38b2c898e5d94f16ed01")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26fe9d8ad80d5765d334afb3b9f3275bae923471")]
 [assembly: System.Reflection.AssemblyProductAttribute("ETreeks.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ETreeks.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

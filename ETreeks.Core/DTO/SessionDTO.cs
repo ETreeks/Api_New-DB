@@ -12,5 +12,6 @@ namespace ETreeks.Core.DTO
         public string SessionName { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
+        public string AVAILABLE_STATUS { get; set; }
     }
 }
