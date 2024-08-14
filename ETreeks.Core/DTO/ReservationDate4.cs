@@ -19,5 +19,7 @@ namespace ETreeks.Core.DTO
         public int CID { get; set; }
         public int Reservation_ID { get; set; }
         public DateTime Reservation_Date { get; set; }
+
+        public int Session_id { get; set; }
     }
 }

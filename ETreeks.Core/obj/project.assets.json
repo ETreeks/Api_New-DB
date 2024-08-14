@@ -1514,11 +1514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\New folder (3)\\Api_New-DB\\ETreeks.Core\\ETreeks.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Api100\\Api_New-DB\\ETreeks.Core\\ETreeks.Core.csproj",
       "projectName": "ETreeks.Core",
-      "projectPath": "C:\\Users\\Lenovo\\Desktop\\New folder (3)\\Api_New-DB\\ETreeks.Core\\ETreeks.Core.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Desktop\\Api100\\Api_New-DB\\ETreeks.Core\\ETreeks.Core.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Desktop\\New folder (3)\\Api_New-DB\\ETreeks.Core\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Desktop\\Api100\\Api_New-DB\\ETreeks.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

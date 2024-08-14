@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ETreeks.Infra
-build_property.ProjectDir = C:\Users\Lenovo\Desktop\New folder (3)\Api_New-DB\ETreeks.Infra\
+build_property.ProjectDir = C:\Users\Lenovo\Desktop\Api100\Api_New-DB\ETreeks.Infra\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

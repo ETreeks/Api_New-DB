@@ -30,12 +30,19 @@ namespace ETreeks.Infra.Service
 
         public async Task<List<Course>> GetAllCoursesAsync()
         {
+          
             return await _courseRepository.GetAllCoursesAsync();
         }
+
 
         public async Task<Course> GetCourseByIdAsync(int courseId)
         {
             return await _courseRepository.GetCourseByIdAsync(courseId);
+        }
+
+        public async Task<List<Course>> GetCourseByTrainerId(int trainer_id2)
+        {
+            return await _courseRepository.GetCourseByTrainerId(trainer_id2);
         }
 
         public async Task UpdateCourseAsync(Course course)

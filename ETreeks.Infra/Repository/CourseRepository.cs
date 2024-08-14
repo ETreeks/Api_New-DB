@@ -62,6 +62,23 @@ namespace ETreeks.Infra.Repository
             return result.FirstOrDefault();
         }
 
+        public async Task<List<Course>> GetCourseByTrainerId(int trainer_id2)
+        {
+            //var result = await _dbContext.Connection.QueryAsync<Course>("COURSE_PACKAGE.GetCourseByTrainerId", commandType: CommandType.StoredProcedure);
+            //return result.ToList();
+            var parameters = new DynamicParameters();
+            parameters.Add("trainer_id2", trainer_id2, DbType.Int32, ParameterDirection.Input);
+
+            var result = await _dbContext.Connection.QueryAsync<Course>(
+                "COURSE_PACKAGE.GetCourseByTrainerId",
+                parameters,
+                commandType: CommandType.StoredProcedure
+            );
+
+            return result.ToList();
+
+        }
+
         public async Task UpdateCourseAsync(Course course)
         {
             var param = new DynamicParameters();

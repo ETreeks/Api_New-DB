@@ -14,5 +14,6 @@ namespace ETreeks.Core.IRepository
         Task DeleteCourseAsync(int courseId);
         Task<List<Course>> GetAllCoursesAsync();
         Task<Course> GetCourseByIdAsync(int courseId);
+        Task<List<Course>> GetCourseByTrainerId(int trainer_id2);
     }
 }
