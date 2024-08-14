@@ -46,6 +46,7 @@ namespace ETreeks.Infra.Repository
             p.Add("Last_Name", guser.Lname, dbType: DbType.String, direction: ParameterDirection.Input);
             p.Add("G_certificate", guser.Certificate, dbType: DbType.String, direction: ParameterDirection.Input);
             p.Add("G_specialization", guser.Specialization, dbType: DbType.String, direction: ParameterDirection.Input);
+            p.Add("Email", guser.Email, dbType: DbType.String, direction: ParameterDirection.Input);
             p.Add("C_id", dbType: DbType.Int32, direction: ParameterDirection.Output);
 
             var result = _dbContext.Connection.ExecuteAsync("Register_Package.RegisterTrainer", p, commandType: CommandType.StoredProcedure);
