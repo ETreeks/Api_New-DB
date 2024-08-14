@@ -36,6 +36,12 @@ namespace ETreeks.Infra.Service
         {
             return await _trainerRepository.GetAllReservationT3(id);
         }
+
+        public async Task<List<ReservationDate2>> GetAllReservationT1000(int id)
+
+        {
+            return await _trainerRepository.GetAllReservationT1000(id);
+        }
         public async Task<Reservation> GetReservationByIdAsync(int id)
         { 
             return await _trainerRepository.GetReservationByIdAsync(id);

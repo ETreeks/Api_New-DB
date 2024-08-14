@@ -13,6 +13,8 @@ namespace ETreeks.Core.IRepository
         List<TrainerSearch> Search(DateTime startDate, DateTime endDate, int trainerId);
         Task<List<ReservationDate>> GetAllReservationT(int id);
         Task<List<ReservationDate2>> GetAllReservationT3(int id);
+
+        Task<List<ReservationDate2>> GetAllReservationT1000(int id);
         Task<Reservation> GetReservationByIdAsync(int id);
 
         Task AcceptReservationAsync(int reservationId);
@@ -26,5 +28,8 @@ namespace ETreeks.Core.IRepository
 
         Task CompletedCourse(int id);
         Task<List<Reservation>> GetAllReservationT2(int id);
+
+
+
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ETreeks.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+850af1bacceac294902c2d9a6460bf71556e3a68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e35062ace831f6ef8c2f38b2c898e5d94f16ed01")]
 [assembly: System.Reflection.AssemblyProductAttribute("ETreeks.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ETreeks.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -21,7 +21,7 @@ namespace ETreeks.API.Controllers
             _trainerService = trainerService;
             _hubContext = hubContext;
         }
-
+        
         [HttpGet]
         [Route("Search/{startDate}/{endDate}/{trainerId}")]
         public List<TrainerSearch> Search(DateTime startDate, DateTime endDate, int trainerId)
@@ -41,6 +41,13 @@ namespace ETreeks.API.Controllers
         public async Task<List<ReservationDate2>> GetAllReservationT3(int id)
         {
             return await _trainerService.GetAllReservationT3(id);
+        }
+
+        [HttpGet]
+        [Route("GetAllReservationT1000/{id}")]
+        public async Task<List<ReservationDate2>> GetAllReservationT1000(int id)
+        {
+            return await _trainerService.GetAllReservationT1000(id);
         }
 
 

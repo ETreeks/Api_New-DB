@@ -57,6 +57,15 @@ namespace ETreeks.Infra.Repository
             return result.ToList();
         }
 
+        public async Task<List<ReservationDate2>> GetAllReservationT1000(int id)
+        {
+            var param = new DynamicParameters();
+            param.Add("TrainerId", id, DbType.Int32, ParameterDirection.Input);
+            var result = await _dbContext.Connection.QueryAsync<ReservationDate2>("Trainer_Package.GetAllReservationT1000", param, commandType: CommandType.StoredProcedure);
+            //var result = await _dbContext.Connection.QueryAsync<ReservationDate>("TRAINER_PACKAGE.GetAllReservationT", commandType: CommandType.StoredProcedure);
+            return result.ToList();
+        }
+
 
         public async Task<Reservation> GetReservationByIdAsync(int id)
         {

@@ -13,6 +13,7 @@ namespace ETreeks.Core.IService
         List<TrainerSearch> Search(DateTime startDate, DateTime endDate , int trainerId);
         Task<List<ReservationDate>> GetAllReservationT(int id);
         Task<List<ReservationDate2>> GetAllReservationT3(int id);
+        Task<List<ReservationDate2>> GetAllReservationT1000(int id);
         Task<Reservation> GetReservationByIdAsync(int id);
 
         Task AcceptReservationAsync(int reservationId);
