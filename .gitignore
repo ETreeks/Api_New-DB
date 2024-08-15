@@ -1,1 +1,28 @@
-AssemblyFile.dll
+
+Here's the entire set of commands in English for ignoring assembly files when pushing changes to a Git repository:
+
+bash
+Copy code
+# 1. Create or open the .gitignore file
+touch .gitignore
+
+# 2. Add the file names or extensions you want to ignore in .gitignore
+echo "*.dll" >> .gitignore
+echo "*.exe" >> .gitignore
+echo "/bin/" >> .gitignore
+echo "/obj/" >> .gitignore
+
+# 3. Check the Git status to ensure the files you added to .gitignore are no longer listed
+git status
+
+# 4. If the assembly files were previously tracked by Git
+git rm --cached *.dll
+git rm --cached *.exe
+git rm --cached -r bin/
+git rm --cached -r obj/
+
+# 5. Commit the changes to confirm the removal of these files from tracking
+git commit -m "Removed assembly files from tracking"
+
+# 6. Push the changes
+git push
