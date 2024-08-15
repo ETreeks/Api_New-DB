@@ -27,6 +27,7 @@ namespace ETreeks.Core.DTO
     public class AddresssDto
     {
         public int Id { get; set; }
+        public int UserId { get; set; }
         public double Longitude { get; set; }
         public double Latitude { get; set; }
         public string City { get; set; }
