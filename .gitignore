@@ -3,9 +3,9 @@
 ################################################################################
 
 /.vs/ETreeks.API/FileContentIndex
-/ETreeks.API/bin/Debug/net6.0/
-/ETreeks.Core\bin\Debug\net6.0/
-/ETreeks.Infra\bin\Debug\net6.0/
+ETreeks.API/bin/Debug/net6.0
+ETreeks.Core\bin\Debug\net6.0
+ETreeks.Infra\bin\Debug\net6.0
 
 # =========================
 # Operating System Files
