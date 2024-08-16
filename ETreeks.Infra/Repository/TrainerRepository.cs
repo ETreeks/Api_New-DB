@@ -6,6 +6,7 @@ using ETreeks.Core.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -234,6 +235,22 @@ namespace ETreeks.Infra.Repository
             var result = await _dbContext.Connection.QueryAsync<Reservation>("Trainer_Package.GetAllReservationT2", param, commandType: CommandType.StoredProcedure);
             return result.ToList();
         }
+
+
+
+        public async Task<AddressStudentDto> GetTrainerAddressByUserIdAsync(int userId)
+        {
+            var parameters = new DynamicParameters();
+            parameters.Add("P_UserId", userId, DbType.Int32, ParameterDirection.Input);
+            var result = await _dbContext.Connection.QuerySingleOrDefaultAsync<AddressStudentDto>(
+                "Trainer_Package.GetTrainerAddressByUserId",
+                parameters,
+                commandType: CommandType.StoredProcedure
+            );
+            return result;
+        }
+
+
 
     }
 }

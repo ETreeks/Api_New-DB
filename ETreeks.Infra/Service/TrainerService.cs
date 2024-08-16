@@ -87,5 +87,11 @@ namespace ETreeks.Infra.Service
         {
             return await _trainerRepository.GetAllReservationT2(id);
         }
+
+
+        public async Task<AddressStudentDto> GetTrainerAddressByUserIdAsync(int userId)
+        {
+            return await _trainerRepository.GetTrainerAddressByUserIdAsync(userId);
+        }
     }
 }

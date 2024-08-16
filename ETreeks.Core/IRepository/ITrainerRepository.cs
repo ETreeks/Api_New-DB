@@ -29,6 +29,9 @@ namespace ETreeks.Core.IRepository
         Task CompletedCourse(int id);
         Task<List<Reservation>> GetAllReservationT2(int id);
 
+        Task<AddressStudentDto> GetTrainerAddressByUserIdAsync(int userId);
+
+
 
 
     }

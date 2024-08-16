@@ -173,5 +173,16 @@ namespace ETreeks.API.Controllers
             item.Imagename = fileName;
             return item;
         }
+
+
+
+
+        [HttpGet("address/{userId}")]
+        public async Task<IActionResult> GetTrainerAddress(int userId)
+        {
+            var address = await _trainerService.GetTrainerAddressByUserIdAsync(userId);
+           
+            return Ok(address);
+        }
     }
 }
