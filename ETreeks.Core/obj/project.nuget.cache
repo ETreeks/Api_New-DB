@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eelQ9uVwVVMSkAduBll4mpviq3pIDuZIwXAIVwFs3NSos1h3kg/apMU1+jlCRabqS0lAV8tssmlbJcUCjDiyeA==",
+  "dgSpecHash": "q3ms7dvvZBKRfy/i1fcnfyzHigU9tDGsvQMhX6HBNzDNTgyRwYtb7IsbXFAJtymPkEqPes+iHI7FdwkMQcko6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\New folder (2)\\Api_New-DB\\ETreeks.Core\\ETreeks.Core.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\هاد يلي برفع\\Api_New-DB\\ETreeks.Core\\ETreeks.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\mailkit\\4.7.1.1\\mailkit.4.7.1.1.nupkg.sha512",

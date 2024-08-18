@@ -26,9 +26,9 @@ namespace ETreeks.API.Controllers
 
         [HttpPost]
         [Route("RegisterTrainer")]
-        public async Task<int> RegisterTrainer([FromBody] Guser guser)
+        public async Task  RegisterTrainer([FromBody] Guser guser)
         {
-            return await _registerService.RegisterTrainer(guser);
+             await _registerService.RegisterTrainer(guser);
         }
 
         //[HttpPost]

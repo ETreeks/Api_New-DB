@@ -25,9 +25,9 @@ namespace ETreeks.Infra.Service
             
         }
 
-        public async Task<int> RegisterTrainer(Guser guser)
+        public async Task RegisterTrainer(Guser guser)
         {
-           return await _registerRepository.RegisterTrainer(guser);
+            await _registerRepository.RegisterTrainer(guser);
         }
     }
 }

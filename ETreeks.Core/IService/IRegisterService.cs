@@ -11,6 +11,6 @@ namespace ETreeks.Core.IService
     {
         Task<int> RegisterStudent(Guser guser);
 
-        Task<int> RegisterTrainer(Guser guser);
+        Task RegisterTrainer(Guser guser);
     }
 }

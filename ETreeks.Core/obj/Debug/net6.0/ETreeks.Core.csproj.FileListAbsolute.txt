@@ -99,3 +99,16 @@ C:\Users\Lenovo\Desktop\Api100\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\ETreeks.
 C:\Users\Lenovo\Desktop\Api100\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\refint\ETreeks.Core.dll
 C:\Users\Lenovo\Desktop\Api100\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\ETreeks.Core.pdb
 C:\Users\Lenovo\Desktop\Api100\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\ref\ETreeks.Core.dll
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\bin\Debug\net6.0\ETreeks.Core.deps.json
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\bin\Debug\net6.0\ETreeks.Core.dll
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\bin\Debug\net6.0\ETreeks.Core.pdb
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\ETreeks.Core.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\ETreeks.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\ETreeks.Core.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\ETreeks.Core.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\ETreeks.Core.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\ETreeks.Core.sourcelink.json
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\ETreeks.Core.dll
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\refint\ETreeks.Core.dll
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\ETreeks.Core.pdb
+C:\Users\Lenovo\Desktop\هاد يلي برفع\Api_New-DB\ETreeks.Core\obj\Debug\net6.0\ref\ETreeks.Core.dll
