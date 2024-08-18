@@ -49,5 +49,11 @@ namespace ETreeks.Infra.Service
         {
              await _courseRepository.UpdateCourseAsync(course);
         }
+
+
+        public async Task<List<CourseSession>> GetSessionsByCourse(int courseId)
+        {
+            return await _courseRepository.GetSessionsByCourse(courseId); 
+        }
     }
 }

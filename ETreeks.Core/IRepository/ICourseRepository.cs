@@ -15,5 +15,6 @@ namespace ETreeks.Core.IRepository
         Task<List<Course>> GetAllCoursesAsync();
         Task<Course> GetCourseByIdAsync(int courseId);
         Task<List<Course>> GetCourseByTrainerId(int trainer_id2);
+        Task<List<CourseSession>> GetSessionsByCourse(int courseId);
     }
 }

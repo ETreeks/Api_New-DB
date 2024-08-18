@@ -96,5 +96,15 @@ namespace ETreeks.API.Controllers
             item.Imagename = fileName; 
             return item;
         }
+
+
+
+        [HttpGet("{courseId}/sessions")]
+        public async Task<ActionResult<List<CourseSession>>> GetSessionsByCourse(int courseId)
+        {
+            var sessions = await _courseService.GetSessionsByCourse(courseId);
+
+            return Ok(sessions);
+        }
     }
 }

@@ -95,6 +95,27 @@ namespace ETreeks.Infra.Repository
             //int courseId = param.Get<int>("C_id");
             //return courseId;
         }
-    }
 
+
+
+
+        public async Task<List<CourseSession>> GetSessionsByCourse(int courseId)
+        {
+            var parameters = new DynamicParameters();
+            parameters.Add("p_course_id", courseId, DbType.Int32, ParameterDirection.Input);
+
+            using (var connection = _dbContext.Connection)
+            {
+                var result = await connection.QueryAsync<CourseSession>(
+                    "COURSE_PACKAGE.GetSessionsByCourse",
+                    parameters,
+                    commandType: CommandType.StoredProcedure
+                );
+
+                return result.ToList();
+            }
+        }
+    }
 }
+
+
